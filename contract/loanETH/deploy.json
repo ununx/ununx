@@ -1,0 +1,26 @@
+[
+  {
+    "address": "0x9d08c9BDd18B8372171EcA191BB8878133DD4483",
+    "owner": "0x0b07aF2FdC80b9f87c37E83cDB1d6dE7Dffc5F3F",
+    "network": "Rinkeby",
+    "chainID": "421611",
+    "symbol": "loanETH",
+    "rpc": "https://rinkeby.arbitrum.io/rpc"
+  },
+  {
+    "address": "0x22a64cAf02cea27fbd25A2b27AE105C3d41fafD8",
+    "owner": "0xd5AbDd579dd9dE11D1431dc5583E4f8D32593458",
+    "network": "Rinkeby",
+    "chainID": "421611",
+    "symbol": "loanETH",
+    "rpc": "https://rinkeby.arbitrum.io/rpc"
+  },
+  {
+    "address": "0x3B2C0aCC9911d22e8E5a640930cf75A10a861cE0",
+    "owner": "0x2d6283FF3777Ae609B01b4BB9dA1e95088204400",
+    "network": "arbitrum v5",
+    "chainID": "144545313136048",
+    "symbol": "loanETH",
+    "memo": "https://kovan5.arbitrum.io/rpc"
+  }
+]

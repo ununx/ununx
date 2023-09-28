@@ -1,0 +1,26 @@
+[
+  {
+    "address": "0x5Fe1cCe9897Df484a918EA9446cec7D14dD96F2B",
+    "owner": "0x0b07aF2FdC80b9f87c37E83cDB1d6dE7Dffc5F3F",
+    "symbol": "OPL",
+    "network": "Arbitrum One",
+    "chainID": "42161",
+    "rpc": "https://arb1.arbitrum.io/rpc"
+  },
+  {
+    "address": "0xE3f540369eCC41635cFC95742e61F90b229e37c7",
+    "owner": "0x0b07aF2FdC80b9f87c37E83cDB1d6dE7Dffc5F3F",
+    "symbol": "Pledge",
+    "network": "Main",
+    "chainID": "1",
+    "rpc": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"
+  },
+  {
+    "address": "0xAf55af247eAB084e196328bF24A9Ec9b91331324",
+    "owner": "0xd5AbDd579dd9dE11D1431dc5583E4f8D32593458",
+    "symbol": "Pledge",
+    "network": "Rinkeby",
+    "chainID": "4",
+    "rpc": "https://rinkeby.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"
+  }
+]

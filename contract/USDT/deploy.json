@@ -1,0 +1,19 @@
+[
+  {
+    "address": "0x31A3cfF867E70fC8D62776F5258896B08B9c2080",
+    "owner": "0xd5AbDd579dd9dE11D1431dc5583E4f8D32593458",
+    "network": "Rinkeby",
+    "chainID": "421611",
+    "symbol": "USDT",
+    "decimals": "18",
+    "rpc": "https://rinkeby.arbitrum.io/rpc"
+  },
+  {
+    "address": "0xd691EB6EC510Da3471EeaCd2B9711719BF5399C2",
+    "owner": "0x2d6283FF3777Ae609B01b4BB9dA1e95088204400",
+    "network": "Arbitrum v5",
+    "chainID": "144545313136048",
+    "symbol": "USDT",
+    "memo": "https://kovan5.arbitrum.io/rpc"
+  }
+]

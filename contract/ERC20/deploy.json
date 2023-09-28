@@ -1,0 +1,101 @@
+[
+  {
+    "address": "0x56C4822B725d42315E86aB7d3ab2Ce29d4a7002C",
+    "owner": "0x0b07aF2FdC80b9f87c37E83cDB1d6dE7Dffc5F3F",
+    "network": "Arbitrum One",
+    "chainID": "42161",
+    "symbol": "OPS",
+    "decimals": "18",
+    "rpc": "https://arb1.arbitrum.io/rpc"
+  },
+  {
+    "address": "0xcaca24257B3e924Eb3921Cf77916A171E4819F9C",
+    "owner": "0x0b07aF2FdC80b9f87c37E83cDB1d6dE7Dffc5F3F",
+    "network": "Arbitrum One",
+    "chainID": "42161",
+    "symbol": "ETH",
+    "decimals": "18",
+    "rpc": "https://arb1.arbitrum.io/rpc"
+  },
+  {
+    "address": "0xc6b70ABAB6Dd7C671af884bAd1cfFd599C5c40E2",
+    "owner": "0x0b07aF2FdC80b9f87c37E83cDB1d6dE7Dffc5F3F",
+    "network": "Arbitrum One",
+    "chainID": "42161",
+    "symbol": "OPA",
+    "decimals": "18",
+    "rpc": "https://arb1.arbitrum.io/rpc"
+  },
+  {
+    "address": "0xFe267CF2711e90581f8150dd48A85AAA2964AE3d",
+    "owner": "0x0b07aF2FdC80b9f87c37E83cDB1d6dE7Dffc5F3F",
+    "network": "Arbitrum One",
+    "chainID": "42161",
+    "symbol": "OPL",
+    "decimals": "18",
+    "rpc": "https://arb1.arbitrum.io/rpc"
+  },
+  {
+    "address": "0xc6b70ABAB6Dd7C671af884bAd1cfFd599C5c40E2",
+    "owner": "0x0b07aF2FdC80b9f87c37E83cDB1d6dE7Dffc5F3F",
+    "network": "Main",
+    "chainID": "1",
+    "symbol": "OPS",
+    "decimals": "18",
+    "rpc": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"
+  },
+  {
+    "address": "0x09045d9cad96Dbb7bCdA8886B5279Ee4d038056c",
+    "owner": "0x379F025b37E04d9d5ec4e3198b36717FA54C513c",
+    "network": "Main",
+    "chainID": "1",
+    "symbol": "OPP-OPT1",
+    "decimals": "18",
+    "rpc": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"
+  },
+  {
+    "address": "0x6284F984eed7eFe2aEFd3148437e340c450D243D",
+    "owner": "0xd5AbDd579dd9dE11D1431dc5583E4f8D32593458",
+    "network": "Arbitrum",
+    "chainID": "421611",
+    "symbol": "ETH",
+    "decimals": "18",
+    "rpc": "https://rinkeby.arbitrum.io/rpc"
+  },
+  {
+    "address": "0x31A3cfF867E70fC8D62776F5258896B08B9c2080",
+    "owner": "0xd5AbDd579dd9dE11D1431dc5583E4f8D32593458",
+    "network": "Arbitrum",
+    "chainID": "421611",
+    "symbol": "USDT",
+    "decimals": "18",
+    "rpc": "https://rinkeby.arbitrum.io/rpc"
+  },
+  {
+    "address": "0x4603cfca413208b1e2be61cf38d03fceeea598c6",
+    "owner": "0x0b07aF2FdC80b9f87c37E83cDB1d6dE7Dffc5F3F",
+    "network": "Main",
+    "chainID": "1",
+    "symbol": "UNI-V2",
+    "decimals": "18",
+    "rpc": "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"
+  },
+  {
+    "address": "0x36196425482E000a24cC0537171F5473CE4556F1",
+    "owner": "0xd5AbDd579dd9dE11D1431dc5583E4f8D32593458",
+    "network": "Rinkeby",
+    "chainID": "4",
+    "symbol": "UNI-V2",
+    "decimals": "18",
+    "rpc": "https://rinkeby.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"
+  },
+  {
+    "address": "0x658839B7e4C252a9830A888bDb6AfD176db7a7F0",
+    "owner": "0xd5AbDd579dd9dE11D1431dc5583E4f8D32593458",
+    "network": "Rinkeby",
+    "chainID": "4",
+    "symbol": "UNI-V2",
+    "decimals": "18",
+    "rpc": "https://rinkeby.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"
+  }
+]

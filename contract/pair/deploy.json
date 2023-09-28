@@ -1,0 +1,77 @@
+[
+  {
+    "address": "0xf0eb11c0041c9f3198A8C2066c5ddb8a079BaAeD",
+    "owner": "0x0b07aF2FdC80b9f87c37E83cDB1d6dE7Dffc5F3F",
+    "network": "Arbitrum One",
+    "chainID": "42161",
+    "symbol": "Pair",
+    "rpc": "https://arb1.arbitrum.io/rpc"
+  },
+  {
+    "address": "0x8398440FE4692Fa71Bc766034292a661F9253774",
+    "owner": "0x0b07aF2FdC80b9f87c37E83cDB1d6dE7Dffc5F3F",
+    "network": "Arbitrum One",
+    "chainID": "42161",
+    "symbol": "Pair",
+    "rpc": "https://arb1.arbitrum.io/rpc"
+  },
+  {
+    "address": "0x426E179c0C7f341855517D09c04b196cb9183DC6",
+    "owner": "0xd5AbDd579dd9dE11D1431dc5583E4f8D32593458",
+    "symbol": "Router",
+    "network": "Rinkeby",
+    "chainID": "421611",
+    "rpc": "https://rinkeby.arbitrum.io/rpc"
+  },
+  {
+    "address": "0x5684e87b38ccA1aA20083919301c93C792411874",
+    "owner": "0xd5AbDd579dd9dE11D1431dc5583E4f8D32593458",
+    "symbol": "Router",
+    "network": "Rinkeby",
+    "chainID": "421611",
+    "rpc": "https://rinkeby.arbitrum.io/rpc"
+  },
+  {
+     "address": "0x6284F984eed7eFe2aEFd3148437e340c450D243D",
+     "owner": "0xd5AbDd579dd9dE11D1431dc5583E4f8D32593458",
+     "network": "Rinkeby",
+     "chainID": "421611",
+     "symbol": "ETH",
+     "decimals": "18",
+     "rpc": "https://rinkeby.arbitrum.io/rpc"
+  },
+  {
+     "address": "0x2aB0E910Eb4B35a23664887EA58cc3E1A40A9FE5",
+     "owner": "0xd5AbDd579dd9dE11D1431dc5583E4f8D32593458",
+     "symbol": "Factory",
+     "network": "Rinkeby",
+     "chainID": "421611",
+     "rpc": "https://rinkeby.arbitrum.io/rpc"
+  },
+  {
+    "contractName": "Router",
+    "address": "0xA4312542bCfF66220A9d6327A597a50c79c3c1F0",
+    "owner": "0x2d6283FF3777Ae609B01b4BB9dA1e95088204400",
+    "network": "Arbitrum v5",
+    "chainID": "144545313136048",
+    "memo": "https://kovan5.arbitrum.io/rpc"
+  },
+  {
+     "address": "0xD37DD110C7e4c489725E5945B46eFCb5cA369bA9",
+     "owner": "0x2d6283FF3777Ae609B01b4BB9dA1e95088204400",
+     "network": "Arbitrum v5",
+     "chainID": "144545313136048",
+     "symbol": "ETH",
+     "decimals": "18",
+     "memo": "https://kovan5.arbitrum.io/rpc"
+  },
+  {
+     "address": "0xFA8Fe039298ee5173213b306Fb7D5F219B33539e",
+     "owner": "0x2d6283FF3777Ae609B01b4BB9dA1e95088204400",
+     "symbol": "Factory",
+     "network": "Arbitrum v5",
+     "chainID": "144545313136048",
+     "rpc": "https://kovan5.arbitrum.io/rpc",
+     "hash": "7a4ff88ce8fca6059481488cf49eb08d1a81e2bd9907af4d38b6b8b445564ce2"
+  }
+]

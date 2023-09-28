@@ -1,0 +1,33 @@
+[
+  {
+     "address": "0xa76D10b3a8a9958bAFc7B3DbDF947FF9edDa0D0f",
+     "owner": "0x0b07aF2FdC80b9f87c37E83cDB1d6dE7Dffc5F3F",
+     "network": "arbitrum",
+     "chainID": "421611",
+     "symbol": "loanUSDT",
+     "rpc": "https://rinkeby.arbitrum.io/rpc"
+  },
+  {
+     "address": "0x690B338BE0574Da01B7208b65C0B234a40Ce0610",
+     "owner": "0xd5AbDd579dd9dE11D1431dc5583E4f8D32593458",
+     "network": "arbitrum",
+     "chainID": "421611",
+     "symbol": "loanUSDT",
+     "rpc": "https://rinkeby.arbitrum.io/rpc"
+  },
+  {
+    "address": "0x3B2C0aCC9911d22e8E5a640930cf75A10a861cE0",
+    "owner": "0x2d6283FF3777Ae609B01b4BB9dA1e95088204400",
+    "network": "arbitrum v5",
+    "chainID": "144545313136048",
+    "symbol": "loanUSDT",
+    "memo": "https://kovan5.arbitrum.io/rpc"
+  },
+  {
+    "address": "0xaCf39d19AA8D31A2464c503c41dd06A1F5DBF86f",
+    "owner": "0x76637b31163b438b15BBf61Bcf878495F7A0Ea4f",
+    "network": "kovan",
+    "chainID": "42",
+    "symbol": "USDT"
+  }
+]
