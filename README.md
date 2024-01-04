@@ -18,6 +18,11 @@ A price aggregator would bring several benefits to users
 ### Order:
 Taking uniswap as an example, most of the existing decentralized trading mechanisms require users to add liquidity, and when there is insufficient liquidity, the slip point increases, which gives arbitrageurs an opportunity to take advantage of it. UNUNX focuses on user orders, and the liquidity is undertaken by the exchange itself, so there is no problem of insufficient liquidity, insufficient transaction and slip point. Users do not have to bear the losses caused by liquidity losses, and the operating experience is similar to that of a centralized exchange. In order to further improve the safety boundary of users, we add a stop win and stop loss function to the order, which can set the stop win and stop loss price at the same time of placing the order, and automatically close the order when the price reaches the stop win and stop loss price
 
+### Slice:
+There is a ceiling on the Gas fee of each transaction in the blockchain. When too many orders are processed in the same transaction, the Gas ceiling may be exceeded and the order cannot be executed. Sharding technology can divide a large number of orders into different slices for execution, ensuring that all fragments are in the same block, and different blockchains have different carrying capacity. The size of the shard can be adjusted through contracts to suit different blockchains
+Example: there are 10,000 total user orders and 1,000 orders that need to be processed immediately. If 1,000 orders are processed in the same transaction, the Gas limit may be exceeded. In this case, the order needs to be divided into multiple slices for processing respectively
+
+
 ### Cost:
 Transaction fee: divided into opening fee, closing fee
 Opening fee: Opening fees are charged for equity assets only, no opening fee for other assets
