@@ -1,4 +1,4 @@
-version 0.3
+version 0.5
 ### UNUNX decentralized derivatives exchange
 UNUNX Exchange is a decentralized full-stack exchange based on blockchain, which does not require user registration information, does not host user assets, has no geographical and national boundaries, and does not require bank accounts. It uses blockchain as the carrier and USDT as the unified base currency, aggregates global high-quality assets, and allows users to do asset allocation from a global perspective. Here you can trade cryptocurrencies or stocks, funds, futures and forex from other countries.
 
@@ -10,9 +10,13 @@ At present, there are four categories of financial products, digital currency, s
 
 ### Price:
 In order to obtain stable and effective prices, we have built an asset price aggregation center, where multiple price suppliers provide price support for each asset, including the price of the blockchain predictor and the price of the traditional trading market. The price aggregation algorithm uses the weighted median method to remove the highest and lowest prices, and then takes the weighted average price as the final effective price. Any price offered by a price supplier that deviates too far from the market price will be automatically filtered and reduced in weight, and stable and efficient price suppliers will be rewarded with a percentage of the transaction fees.
+
 A price aggregator would bring several benefits to users
+
 1.Filter out intentional or unintentional price manipulation in some markets. Avoid overstock caused by excessive price fluctuations
+
 2.Aggregate prices are appropriately weighted for prices of different levels of precision, for example: exchanges have different levels of liquidity, and less liquid exchanges tend to have larger bid-ask spreads than more liquid ones. This feature may result in one exchange reporting 1000 and another exchange reporting 1100. In these cases, the final price is closer to 1000 than 1100.
+
 3.When a supplier unexpectedly fails to provide the price, the price provided by other suppliers in the price aggregation center will not affect the final price of the asset
 
 ### Order:
@@ -20,28 +24,39 @@ Taking uniswap as an example, most of the existing decentralized trading mechani
 
 ### Slice:
 There is a ceiling on the Gas fee of each transaction in the blockchain. When too many orders are processed in the same transaction, the Gas ceiling may be exceeded and the order cannot be executed. Sharding technology can divide a large number of orders into different slices for execution, ensuring that all fragments are in the same block, and different blockchains have different carrying capacity. The size of the shard can be adjusted through contracts to suit different blockchains
-Example: there are 10,000 total user orders and 1,000 orders that need to be processed immediately. If 1,000 orders are processed in the same transaction, the Gas limit may be exceeded. In this case, the order needs to be divided into multiple slices for processing respectively
 
+Example: there are 10,000 total user orders and 1,000 orders that need to be processed immediately. If 1,000 orders are processed in the same transaction, the Gas limit may be exceeded. In this case, the order needs to be divided into multiple slices for processing respectively
+ ![ununx](public/image/slice.JPG)
 
 ### Cost:
 Transaction fee: divided into opening fee, closing fee
+
 Opening fee: Opening fees are charged for equity assets only, no opening fee for other assets
+
 Closing fee: Charge 0.2% on profitable orders, and there is no closing fee for all losing orders. This setting is specified by the smart contract code and is permanent and cannot be changed.
+
 Capital rate: There is no capital rate, which means you can hold any asset for a long time
+
 GAS fee: This fee is charged by the blockchain where the smart contract is located, and all the order information is recorded on the blockchain, so the establishment of the order needs to consume more gas fees, and we will choose the secure and cheap blockchain to deploy the smart contract. The Ethereum Layer 2 network can effectively reduce gas fees and increase transaction speed, as shown in the figure below: The gas fee required to establish an order is about $0.03
  ![ununx](public/image/whitepaper1.JPG)
 
 ### Period:
 The trading hours of different assets are different, digital currencies can be traded 24 hours, and other financial products need to abide by the trading hours of the regional exchanges, such as AAPL Apple stock price and trading hours are from the Dow Jones exchange in the United States
+
 Stocks: 9.30 a.m. to 4 p.m. Eastern Daylight Time and 10.30 a.m. to 5 p.m. Winter time, the market is closed on weekends, following the New York Stock Exchange holiday and trading hours
+
 Forex: From 5PM every Sunday to 5PM the following Friday, 24 hours a day, closed on Saturdays, trading continues during most US holidays
+
 Futures: From 5PM every Sunday to 5PM next Friday, 24 hours a day, closed on Saturday, futures are closed following the CME holiday
 
 ### Restrictions:
 Due to the limited amount of information that the blockchain can carry, a maximum of 2,000 orders can be built per account, and when the upper limit is reached, the account can be replaced to establish a new order, and all assets are denominated in USDT
 Orders: Each wallet account address can accommodate up to 2000 orders
+
 Minimum amount: 100usdt, minimum cost per order is 100usdt
+
 Minimum leverage: 2 x,
+
 Maximum leverage: 100 x, foreign exchange assets up to 1000 x
 
 ### Transfer of assets:
@@ -55,12 +70,19 @@ Account B logs in to the website through the wallet and Withdraw the Market bala
 ![ununx](public/image/whitepaper5.JPG)
 ### Token Plan:
 Symbol: UNX
+
 Total quantity: 21,000,000, not reissued
+
 Issue price: 0.1usdt
+
 Launch date: 2024 Q1
+
 We expect to emulate BTC by starting with a lower market cap and allowing it to grow naturally
+
 20% is reserved by the project team for the development and operation of the project and for the award of outstanding contributors to the project, and 5% is released annually in 4 years
+
 20% is used for airdrops to reward early participants
+
 60% is voted by community users and the foundation, which is mainly used to add liquidity when the exchange is launched
 
 ### End:
